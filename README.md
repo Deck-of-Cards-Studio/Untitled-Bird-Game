@@ -23,5 +23,6 @@ Jack and [Oliver](https://github.com/Parrotapocalypse). Ping @Parrotapocalypse f
 ## Level Design Team
 [DeltaV1ms](https://github.com/DeltaV1ms),
 [SandwichmasterX](https://github.com/SandwichmasterX)
-<!--## Programming Team
-## Music Team-->
+## Programming Team
+[Rauishin](https://github.com/Rauishin)<sup> Maintainer</sup>
+<!--## Music Team-->
