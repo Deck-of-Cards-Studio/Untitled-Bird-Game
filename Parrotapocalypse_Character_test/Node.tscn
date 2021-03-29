@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Sphero.gd" type="Script" id=1]
+
+[sub_resource type="CapsuleShape" id=1]
+
+[sub_resource type="CapsuleMesh" id=2]
+
+[sub_resource type="BoxShape" id=3]
+extents = Vector3( 100, 1, 100 )
+
+[sub_resource type="CubeMesh" id=4]
+size = Vector3( 100, 1, 100 )
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Capsule" type="KinematicBody" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.00933, 14.5076 )
+script = ExtResource( 1 )
+
+[node name="Hitbox" type="CollisionShape" parent="Capsule"]
+shape = SubResource( 1 )
+
+[node name="Mesh" type="MeshInstance" parent="Capsule/Hitbox"]
+mesh = SubResource( 2 )
+material/0 = null
+
+[node name="Viewport" type="Viewport" parent="Capsule"]
+size = Vector2( 50, 50 )
+audio_listener_enable_3d = true
+shadow_atlas_size = 1
+
+[node name="Floor" type="StaticBody" parent="."]
+
+[node name="CollisionShape" type="CollisionShape" parent="Floor"]
+shape = SubResource( 3 )
+
+[node name="MeshInstance" type="MeshInstance" parent="Floor/CollisionShape"]
+mesh = SubResource( 4 )
+material/0 = null
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.846556, 0.5323, 0, -0.5323, 0.846556, 0, 16.7196, 44.0723 )
