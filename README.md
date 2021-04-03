@@ -17,13 +17,16 @@ See the entire [glossary](https://docs.github.com/en/github/getting-started-with
 # Teams
 This will be updated as needed.
 ## Owners
-Jack and [Oliver](https://github.com/Parrotapocalypse). Ping @Parrotapocalypse first if you have a technical question.
-## Writing Team
-[twodaycc](https://github.com/twodaycc)
-<!--## Art Team-->
+[Jack](he's not in the organization, go talk to someone else) and [Oliver](https://github.com/Parrotapocalypse). Ping @Parrotapocalypse first if you have a technical question.
+<!--## Writing Team
+-->
+## Art Team
+[Swaggy-P3](https://github.com/Swaggy-P3)
 ## Level Design Team
 [DeltaV1ms](https://github.com/DeltaV1ms),
 [SandwichmasterX](https://github.com/SandwichmasterX)
 ## Programming Team
-[Rauishin](https://github.com/Rauishin)<sup> Maintainer</sup>
+[Rauishin](https://github.com/Rauishin)<sup> Maintainer</sup>,
+[twodaycc](https://github.com/twodaycc),
+[CosmicCuttlefish](https://github.com/CosmicCuttlefish)
 <!--## Music Team-->
