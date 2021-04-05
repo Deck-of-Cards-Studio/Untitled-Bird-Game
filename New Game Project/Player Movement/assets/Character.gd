@@ -51,6 +51,8 @@ func _process(delta):
 		
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		graV.y = jump
+	if translation.y <= -3:
+		get_tree().reload_current_scene()
 	
 	
 	direction = direction.normalized()
