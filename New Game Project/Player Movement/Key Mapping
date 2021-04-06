@@ -3,6 +3,6 @@ W: Forward
 A: Move Left
 S: Backward
 D: Move Right
-SPACE: Jump
-Q: Dash (Work in porgress)
+SPACE: Jump ( and double jump)
+Q: Dash
 ESC: free cursor
