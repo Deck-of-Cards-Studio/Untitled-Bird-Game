@@ -17,7 +17,7 @@ See the entire [glossary](https://docs.github.com/en/github/getting-started-with
 # Teams
 This will be updated as needed.
 ## Owners
-[Jack](he's not in the organization, go talk to someone else) and [Oliver](https://github.com/Parrotapocalypse). Ping @Parrotapocalypse first if you have a technical question.
+[Oliver](https://github.com/Parrotapocalypse)
 <!--## Writing Team
 -->
 ## Art Team
